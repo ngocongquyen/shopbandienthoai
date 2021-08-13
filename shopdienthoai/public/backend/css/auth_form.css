@@ -1,0 +1,8 @@
+.form-group.invalid .form-control {
+    border-color: #f33a58;
+    margin-bottom: 8px;
+}
+  
+.form-group.invalid .auth-form__message {
+    color: #f33a58;   
+}

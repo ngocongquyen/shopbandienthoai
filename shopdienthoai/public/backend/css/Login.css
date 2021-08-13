@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: url("../images/suongmu.jpg") top center / cover no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.over-lay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    position: relative;
+    width: 416px;
+    height: 516px;
+    background-color:rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    margin: auto;
+    top: 10%;
+}
+
+.header_register{
+    position: relative;
+    width: 416px;
+    height: 600px;
+    background-color:rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    margin: auto;
+}
+
+.content {
+    padding:60px 40px;
+}
+.heading {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1em;
+    letter-spacing: 2px;
+    color:#fff;
+    margin-bottom: 12px;
+}
+.auth-form__form {
+    overflow: hidden;
+    
+}
+
+.auth-form__group {
+    position: relative;
+}
+
+.auth-form__input {
+    position: relative;
+    width: 100%;
+    outline: none;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 15px 40px 15px 10px;
+    letter-spacing: 2px;
+    border: none;
+    border: 1px solid #fff;
+    margin-bottom: 25px;
+    background: transparent;
+    opacity: 1;
+    border-radius: 2px;
+}
+
+.auth-form__input::placeholder {
+    color: #fff;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+.auth-form__input:focus {
+    color:#fff;
+    border-color: #888;
+}
+
+
+.users {
+    position: absolute;
+    top: 18%;
+    right: 5%;
+    color:#fff;
+    font-size: 20px;
+}
+
+.unblock,.square,.phone{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    color: #fff;
+    font-size: 20px;
+}
+.remember {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+.check {
+    display: flex;
+    align-items: center;
+}   
+
+.check__input {
+    cursor: pointer;
+}
+
+.check__text {
+   margin:0 0 0 10px;
+}
+
+.forgot__text {
+    text-decoration: none;
+    margin:0;
+    color: #fff;
+}
+.forgot__text:hover {
+    color:#8BC34A;
+    cursor: pointer;
+}
+
+
+.login__input{
+    color:#000;
+    width: 100%;
+    outline: none;
+    font-size: 15px;
+    padding: 15px 40px 15px 10px;
+    letter-spacing: 2px;
+    border: none;
+    border: 1px solid #fff;
+    background-color:#fff;
+    outline:none;
+    border-radius: 2px;
+}
+
+.login__input:hover {
+    background-color: #8BC34A;
+    color:#fff;
+    font-weight: 500;
+    outline:none;
+}
+
+span.text {
+    color: red;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
